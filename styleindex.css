@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=East+Sea+Dokdo&family=Kanit&family=Montserrat&family=Roboto+Slab:wght@300&family=Sofia+Sans+Condensed:wght@200&family=Yeon+Sung&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.sticker{
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+.head2{
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px 0px 0vw;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1vw;
+}
+button{
+    margin: 0vw 1vw;
+    background-color: rgb(96, 22, 96);
+    color: white;
+    font-size: 1.5vw;
+    border-radius: 9px;
+    padding-block: 2px;
+    padding-inline: 7px;
+    cursor: pointer;
+
+}
+.title{
+    margin: 0px 0px 0px 2vw;
+    font-size: 34px;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+}
+.headnav{
+    background-color: rgb(96, 22, 96);
+    border: solid 3px black;
+    display: flex;
+    justify-content: space-between;
+    height: 7vh;
+    align-items: center;
+}
+.img2{
+    margin: 0px 0px 0px 54vw;
+}
+.about{
+    color: white;
+    text-decoration: none;
+    padding: 0px 2.5vw 0px 0px;
+font-size: 1.5vw;
+}
+.notes{
+    color: white;
+    text-decoration: none;
+    padding: 0px 2.5vw 0px 0px;
+font-size: 1.5vw;
+
+}
+.videos{
+    color: white;
+    text-decoration: none;
+    padding: 0px 2.5vw 0px 0px;
+font-size: 1.5vw;
+
+}
+.contactus{
+    color: black;
+    text-decoration: none;
+    font-size: 1.5vw;
+    font-weight: bold;
+    margin: 0px 0.5vw 0px 0px;
+}
+.aboutus{
+    color: black;
+    text-decoration: none;
+    margin: 0px 1.5vw 0px 0px;
+    font-size: 1.5vw;
+    font-weight: bold;
+
+}
+h1{
+    margin: 6vh 0px 0px 33vw;
+    font-size: 85px;
+    color: black;
+    text-decoration: underline;
+}
+h2{
+    margin:   11px 66px 13px 87px;
+    font-size: 35px;
+}
+.updated{
+    list-style-type: square;
+    margin: 0px 0px 7px 139px;
+    font-size: 24px;
+    font-family: 'Roboto Slab', serif;
+}
+.upcoming{
+    list-style: square;
+    margin: 0px 0px 15px 139px;
+    font-size: 24px;
+    font-family: 'Roboto Slab', serif;
+}
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 72px;
+    font-size: 21px;
+}
+.imghand{
+    height: 62px;
+    position: absolute;
+    left: 0vw;
+    top: 48vh;
+}
+.imghand2{
+    height: 60px;
+    position: absolute;
+    left: 0vw;
+}
+.about:hover{
+    text-decoration: underline;
+}
+.notes:hover{
+    text-decoration: underline;
+}
+.videos:hover{
+    text-decoration: underline;
+}
+.aboutus:hover{
+    text-decoration: underline;
+}
+.contactus:hover{
+    text-decoration: underline;
+}
+button:hover{
+    background-color: rgb(175, 95, 251);
+    color: black;
+}
+.img2:hover{
+    background-color: rgb(194, 132, 253);
+}
